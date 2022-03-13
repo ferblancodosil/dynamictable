@@ -1,0 +1,4261 @@
+{
+  "columns": [
+    {
+      "field": "id",
+      "label": "Id",
+      "format": "numeric",
+      "sortable": true
+    },
+    {
+      "field": "plate",
+      "label": "Plate",
+      "sortable": true
+    },
+    {
+      "field": "location",
+      "label": "Location",
+      "sortable": true,
+      "format": "location"
+    },
+    {
+      "field": "speed",
+      "label": "Speed",
+      "sortable": false,
+      "format": "speed",
+      "measure": "kmh",
+      "precision": 2
+    },
+    {
+      "field": "speed_average",
+      "label": "Speed Avg",
+      "sortable": false,
+      "format": "speed",
+      "measure": "mph",
+      "precision": 3
+    },
+    {
+      "field": "temperature_front",
+      "label": "Front Tmp.",
+      "sortable": true,
+      "format": "temperature",
+      "measure": "celsius"
+    },
+    {
+      "field": "temperature_back",
+      "label": "Back Tmp.",
+      "sortable": true,
+      "format": "temperature",
+      "measure": "fahrenheit"
+    }
+  ],
+  "rows": [
+    {
+      "id": 1,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 2,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 3,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 4,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 5,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 6,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 7,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 8,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 9,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 10,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 11,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 12,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 13,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 14,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 15,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 16,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 17,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 18,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 19,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 20,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 21,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 22,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 23,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 24,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 25,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 26,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 27,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 28,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 29,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 30,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 101,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 102,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 103,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 104,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 105,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 106,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 107,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 108,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 109,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 1010,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 1011,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 1012,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 1013,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 1014,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 1015,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 1016,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 1017,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 1018,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 1019,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 1020,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 1021,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 1022,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 1023,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 1024,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 1025,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 1026,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 1027,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 1028,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 1029,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 1030,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+
+    {
+      "id": 201,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 202,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 203,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 204,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 205,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 206,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 207,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 208,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 209,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 2010,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 2011,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 2012,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 2013,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 2014,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 2015,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 2016,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 2017,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 2018,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 2019,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 2020,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 2021,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 2022,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 2023,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 2024,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 2025,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 2026,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 2027,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 2028,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 2029,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 2030,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+
+    {
+      "id": 301,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 302,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 303,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 304,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 305,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 306,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 307,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 308,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 309,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 3010,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 3011,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 3012,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 3013,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 3014,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 3015,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 3016,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 3017,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 3018,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 3019,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 3020,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 3021,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 3022,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 3023,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 3024,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 3025,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 3026,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 3027,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 3028,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 3029,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 3030,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+
+    {
+      "id": 401,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 402,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 403,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 404,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 405,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 406,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 407,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 408,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 409,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 4010,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 4011,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 4012,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 4013,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 4014,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 4015,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 4016,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 4017,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 4018,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 4019,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 4020,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 4021,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 4022,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 4023,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 4024,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 4025,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 4026,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 4027,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 4028,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 4029,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 4030,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+
+    {
+      "id": 501,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 502,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 503,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 504,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 505,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 506,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 507,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 508,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 509,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 5010,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 5011,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 5012,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 5013,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 5014,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 5015,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 5016,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 5017,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 5018,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 5019,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 5020,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 5021,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 5022,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 5023,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 5024,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 5025,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 5026,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 5027,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 5028,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 5029,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 5030,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+
+    {
+      "id": 601,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 602,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 603,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 604,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 605,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 606,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 607,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 608,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 609,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 6010,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 6011,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 6012,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 6013,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 6014,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 6015,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 6016,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 6017,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 6018,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 6019,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 6020,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 6021,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 6022,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 6023,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 6024,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 6025,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 6026,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 6027,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 6028,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 6029,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 6030,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+
+    {
+      "id": 701,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 702,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 703,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 704,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 705,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 706,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 707,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 708,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 709,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 7010,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 7011,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 7012,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 7013,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 7014,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 7015,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 7016,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 7017,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 7018,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 7019,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 7020,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 7021,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 7022,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 7023,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 7024,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 7025,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 7026,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 7027,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 7028,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 7029,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 7030,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+
+    {
+      "id": 801,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 802,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 803,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 804,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 805,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 806,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 807,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 808,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 809,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 8010,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 8011,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 8012,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 8013,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 8014,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 8015,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 8016,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 8017,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 8018,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 8019,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 8020,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 8021,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 8022,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 8023,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 8024,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 8025,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 8026,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 8027,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 8028,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 8029,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 8030,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+
+    {
+      "id": 901,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 902,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 903,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 904,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 905,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 906,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 907,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 908,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 909,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 9010,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 9011,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 9012,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 9013,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 9014,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 9015,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 9016,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 9017,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 9018,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 9019,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 9020,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 9021,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 9022,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 9023,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 9024,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 9025,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 9026,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 9027,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 9028,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 9029,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    },
+    {
+      "id": 9030,
+      "plate": "0000LBN",
+      "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+      },
+      "speed": 25.56789,
+      "speed_average": 30.123456789,
+      "temperature_front": 19.5456789,
+      "temperature_back": 3.23456789
+    }
+  ]
+}
