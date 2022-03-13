@@ -1,11 +1,84 @@
 # Vue 3 + Typescript + Vite
 
-This template should help get you started developing with Vue 3 and Typescript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+## Steps to install
 
-## Recommended IDE Setup
+```
+    yarn install
+```
 
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+## Steps to run dev
 
-## Type Support For `.vue` Imports in TS
+```
+    yarn dev
+```
 
-Since TypeScript cannot handle type information for `.vue` imports, they are shimmed to be a generic Vue component type by default. In most cases this is fine if you don't really care about component prop types outside of templates. However, if you wish to get actual prop types in `.vue` imports (for example to get props validation when using manual `h(...)` calls), you can enable Volar's `.vue` type support plugin by running `Volar: Switch TS Plugin on/off` from VSCode command palette.
+## Setap to production package
+
+```
+     yarn build
+```
+
+## App Logic
+
+### Column params
+
+To config a column params you have different fields (mandatory or not). Here you can found the definition:
+
+- Field: Item in row. Mandatory
+- Label: Name to show in the header. Default: the field will the label
+- Sortable: Sortable option. Default: false
+- Format: This variable can define the method to print the measure. Options: location | speed | temperature | numeric. Default: Empry format.
+- Measure: Metric unit. Not default option
+- Precision: If you have a number with this variable you can assign a precision to the decimal. Not default option
+
+```
+
+{
+    "field": "speed",
+    "label": "Speed",
+    "sortable": false,
+    "format": "speed",
+    "measure": "kmh",
+    "precision": 2
+}
+
+```
+
+### Row params
+
+You can add as many fields as elements you have configured in the column. Example:
+
+```
+{
+    "id": 1,
+    "plate": "0000LBN",
+    "location": {
+        "country": "Spain",
+        "city": "Valencia",
+        "postal_code": "46004",
+        "address": "Carrer de Colón"
+    },
+    "speed": 25.56789,
+    "speed_average": 30.123456789,
+    "temperature_front": 19.5456789,
+    "temperature_back": 3.23456789
+}
+
+```
+
+## Style customization
+
+Is possible modify the column format adding a global style that overwritten the row style. For example, if you prefer have a row with other params alignment you can add this code in assets/global.css
+
+```
+
+.item-inner {
+  grid-template-areas: 'id plate plate location location' 'id speed speed_average temperature_front temperature_back' !important;
+}
+
+```
+
+## Next steps
+
+- Add i18n to have better UX, for example in title field
+- Add pagination option. In this moment, the table only work with scroll infinity.
