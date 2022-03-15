@@ -2,11 +2,28 @@
   import { onMounted, reactive, ref } from 'vue'
   import { TableService } from '@/services'
   import { Row } from '@/logic/Row'
-  // import useColumns from './loadColumns'
-  import RowComponent from './RowComponent.vue'
+  import { Column } from '@/logic/Column'
+  import RowTable from './Row.vue'
+  import HeaderTable from './Header.vue'
   import VirtualList from 'vue3-virtual-scroll-list'
   // eslint-disable-next-line no-undef
+  const emit = defineEmits<{
+    (event: 'load-more-data'): void
+  }>()
+  // eslint-disable-next-line no-undef
   const props = defineProps({
+    columns: {
+      type: Object as () => Column[],
+      required: true,
+    },
+    haveMoreData: {
+      type: Boolean,
+      default: true,
+    },
+    rows: {
+      type: Object as () => Row[],
+      required: true,
+    },
     height: {
       type: String,
       default: '100vh',
@@ -16,52 +33,29 @@
       default: 20,
     },
   })
-  // const { columns, loadColumns } = useColumns()
-  const rows: { items: Row[] } = reactive({ items: [] })
-  const isLoading = ref(false)
-  const haveMoreData = ref(true)
-
-  const loadRows = async (initItem: number): Promise<Row[]> => {
-    isLoading.value = true
-    const rows = await TableService.getRows({
-      initItem,
-      pageSize: props.pageSize,
-    })
-    isLoading.value = false
-    return rows
-  }
-  const onScrollToBottom = async () => {
-    if (isLoading.value) {
-      return
-    }
-    const newItems = await loadRows(rows.items.length)
-    haveMoreData.value = newItems.length > 0
-    rows.items = rows.items.concat(newItems)
-  }
-  onMounted(async () => {
-    // await loadColumns()
-    rows.items = await loadRows(0)
-  })
 </script>
 
 <template>
-  <VirtualList
-    class="list-infinite scroll-touch"
-    :data-key="'id'"
-    :data-sources="rows.items"
-    :data-component="RowComponent"
-    :estimate-size="70"
-    :item-class="'list-item-infinite'"
-    :footer-class="'loader-wrapper'"
-    :style="{ height: height }"
-    @tobottom="onScrollToBottom"
-  >
-    <template #footer>
-      <div v-if="haveMoreData">
-        <div class="loader" />
-      </div>
-    </template>
-  </VirtualList>
+  <div class="table">
+    <HeaderTable :columns="columns" />
+    <VirtualList
+      class="list-infinite scroll-touch"
+      :data-key="'id'"
+      :data-sources="rows"
+      :data-component="RowTable"
+      :estimate-size="70"
+      :item-class="'list-item-infinite'"
+      :footer-class="'loader-wrapper'"
+      :style="{ height: height }"
+      @tobottom="$emit('load-more-data')"
+    >
+      <template #footer>
+        <div v-if="haveMoreData">
+          <div class="loader" />
+        </div>
+      </template>
+    </VirtualList>
+  </div>
 </template>
 
 <style scoped lang="scss">

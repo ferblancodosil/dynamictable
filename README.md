@@ -72,7 +72,7 @@ Is possible modify the column format adding a global style that overwritten the 
 
 ```
 
-.item-inner {
+.item-wrapper {
   grid-template-areas: 'id plate plate location location' 'id speed speed_average temperature_front temperature_back' !important;
 }
 
