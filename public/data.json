@@ -38,14 +38,16 @@
       "label": "Front Tmp.",
       "sortable": true,
       "format": "temperature",
-      "measure": "celsius"
+      "measure": "celsius",
+      "precision": 1
     },
     {
       "field": "temperature_back",
       "label": "Back Tmp.",
       "sortable": true,
       "format": "temperature",
-      "measure": "fahrenheit"
+      "measure": "fahrenheit",
+      "precision": 1
     }
   ],
   "rows": [

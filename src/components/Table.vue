@@ -7,11 +7,11 @@
   import HeaderTable from './Header.vue'
   import VirtualList from 'vue3-virtual-scroll-list'
   // eslint-disable-next-line no-undef
-  const emit = defineEmits<{
+  defineEmits<{
     (event: 'load-more-data'): void
   }>()
   // eslint-disable-next-line no-undef
-  const props = defineProps({
+  defineProps({
     columns: {
       type: Object as () => Column[],
       required: true,
@@ -44,6 +44,7 @@
       :data-sources="rows"
       :data-component="RowTable"
       :estimate-size="70"
+      :extra-props="{ columns }"
       :item-class="'list-item-infinite'"
       :footer-class="'loader-wrapper'"
       :style="{ height: height }"

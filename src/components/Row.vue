@@ -1,7 +1,6 @@
 <script setup lang="ts">
   import { Column } from '@/logic/Column'
   import { Row } from '@/logic/Row'
-  import useColumns from '@/hooks/loadColumns'
   import { Location } from '@/logic/Location'
   import { FORMATS } from '@/logic/Formats'
   import { MEASURES } from '@/logic/Measures'
@@ -14,8 +13,11 @@
       type: Object as () => Row,
       default: () => ({}),
     },
+    columns: {
+      type: Object as () => Column[],
+      required: true,
+    },
   })
-  const { columns, loadColumns } = useColumns()
 
   const format = ({ column, row }: { column: Column; row: Row }): string => {
     let item = row[column.field_name as keyof Row]
@@ -43,13 +45,12 @@
     return `${item}`
   }
   const values = computed(() => {
-    return columns.items.map((column: Column) => ({
+    return props.columns.map((column: Column) => ({
       field_name: column.field_name,
       label: column.label || column.field_name,
       value: format({ column, row: props.source }),
     }))
   })
-  loadColumns()
 </script>
 
 <template>
