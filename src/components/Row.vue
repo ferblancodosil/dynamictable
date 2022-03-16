@@ -1,4 +1,5 @@
 <script setup lang="ts">
+  import { ref } from 'vue'
   import { Column } from '@/logic/Column'
   import { Row } from '@/logic/Row'
   import { Location } from '@/logic/Location'
@@ -55,7 +56,10 @@
 
 <template>
   <div class="row-wrapper">
-    <Fields :values="values" />
+    <Fields
+      :values="values"
+      :data2save="source"
+    />
   </div>
 </template>
 

@@ -1,11 +1,11 @@
 <script setup lang="ts">
-  import { onMounted, reactive, ref } from 'vue'
-  import { TableService } from '@/services'
+  import { computed } from 'vue'
   import { Row } from '@/logic/Row'
   import { Column } from '@/logic/Column'
   import RowTable from './Row.vue'
   import HeaderTable from './Header.vue'
   import VirtualList from 'vue3-virtual-scroll-list'
+
   // eslint-disable-next-line no-undef
   defineEmits<{
     (event: 'load-more-data'): void

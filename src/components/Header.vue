@@ -21,7 +21,10 @@
 
 <template>
   <div class="column-wrapper">
-    <Fields :values="values" />
+    <Fields
+      :show-check-box="false"
+      :values="values"
+    />
   </div>
 </template>
 

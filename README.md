@@ -73,7 +73,8 @@ Is possible modify the column format adding a global style that overwritten the 
 ```
 
 .item-wrapper {
-  grid-template-areas: 'id plate plate location location' 'id speed speed_average temperature_front temperature_back' !important;
+    grid-auto-columns: minmax(0, 1fr);
+    grid-template-areas: 'id plate plate location location' 'id speed speed_average temperature_front temperature_back' !important;
 }
 
 ```
@@ -82,3 +83,5 @@ Is possible modify the column format adding a global style that overwritten the 
 
 - Add i18n to have better UX, for example in title field
 - Add pagination option. In this moment, the table only work with scroll infinity.
+- Columns shall sort the rows by clicking on them.
+- Button that adds new rows to the table (no need to write the data for each row, just add a new row with random data).

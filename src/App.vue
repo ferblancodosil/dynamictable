@@ -1,10 +1,12 @@
 <script setup lang="ts">
   import Table from '@/components/Table.vue'
   import { Row } from '@/logic/Row'
-  import useColumns from '@/hooks/loadColumns'
-  import useRows from '@/hooks/loadRows'
-  import { ref, reactive } from 'vue'
+  import useColumns from '@/hooks/useColumns'
+  import useRows from '@/hooks/useRows'
+  import { ref, reactive, computed } from 'vue'
   import '@/assets/global.css'
+  import { useMainStore } from '@/store'
+  const mainStore = useMainStore()
 
   const rows: { items: Row[] } = reactive({ items: [] })
   const { columns, loadColumns } = useColumns()
@@ -20,6 +22,12 @@
     haveMoreData.value = newItems.length > 0
     rows.items = rows.items.concat(newItems)
   }
+  const selectedRows: Row[] = computed(() => mainStore.selelectedRows as Row[])
+
+  const removeItem = ({ key }: { key: string }) => {
+    console.info('key', key)
+    mainStore.deleteRow({ key })
+  }
 
   loadColumns()
   loadMoreRows()
@@ -27,13 +35,30 @@
 
 <template>
   <h1>Example table</h1>
-  <Table
-    :columns="columns.items"
-    :rows="rows.items"
-    height="50vh"
-    class="table"
-    @load-more-data="loadMoreRows"
-  />
+  <div class="wrapper">
+    <Table
+      :columns="columns.items"
+      :rows="rows.items"
+      height="70vh"
+      class="table"
+      @load-more-data="loadMoreRows"
+    />
+
+    <div class="selected">
+      <b>Selected items</b>
+      <div v-for="(row, index) in selectedRows" :key="index">
+        <img
+          src="@/assets/close.svg"
+          width="10"
+          height="10"
+          class="remove"
+          title="Click to remove"
+          @click="removeItem({ key: `${row.id}` })"
+        />
+        {{ row.id }} - {{ row.plate }}
+      </div>
+    </div>
+  </div>
 </template>
 
 <style lang="scss">
@@ -44,9 +69,20 @@
     text-align: center;
     color: #2c3e50;
     margin-top: 60px;
+    .wrapper {
+      display: flex;
+      flex-direction: row;
+    }
     .table {
       border: 2px solid;
       border-color: dimgray;
+      width: 80vw;
+    }
+    .selected {
+      width: 20vw;
+      .remove {
+        cursor: pointer;
+      }
     }
   }
 </style>
