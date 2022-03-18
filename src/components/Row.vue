@@ -1,5 +1,4 @@
 <script setup lang="ts">
-  import { ref } from 'vue'
   import { Column } from '@/logic/Column'
   import { Row } from '@/logic/Row'
   import { Location } from '@/logic/Location'

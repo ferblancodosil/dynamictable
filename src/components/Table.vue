@@ -1,5 +1,4 @@
 <script setup lang="ts">
-  import { computed } from 'vue'
   import { Row } from '@/logic/Row'
   import { Column } from '@/logic/Column'
   import RowTable from './Row.vue'

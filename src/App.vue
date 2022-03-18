@@ -1,12 +1,11 @@
 <script setup lang="ts">
   import Table from '@/components/Table.vue'
-  import { Row } from '@/logic/Row'
+  import Selections from '@/components/Selections.vue'
   import useColumns from '@/hooks/useColumns'
   import useRows from '@/hooks/useRows'
-  import { ref, reactive, computed } from 'vue'
+  import { Row } from '@/logic/Row'
+  import { ref, reactive } from 'vue'
   import '@/assets/global.css'
-  import { useMainStore } from '@/store'
-  const mainStore = useMainStore()
 
   const rows: { items: Row[] } = reactive({ items: [] })
   const { columns, loadColumns } = useColumns()
@@ -22,13 +21,6 @@
     haveMoreData.value = newItems.length > 0
     rows.items = rows.items.concat(newItems)
   }
-  const selectedRows: Row[] = computed(() => mainStore.selelectedRows as Row[])
-
-  const removeItem = ({ key }: { key: string }) => {
-    console.info('key', key)
-    mainStore.deleteRow({ key })
-  }
-
   loadColumns()
   loadMoreRows()
 </script>
@@ -43,21 +35,7 @@
       class="table"
       @load-more-data="loadMoreRows"
     />
-
-    <div class="selected">
-      <b>Selected items</b>
-      <div v-for="(row, index) in selectedRows" :key="index">
-        <img
-          src="@/assets/close.svg"
-          width="10"
-          height="10"
-          class="remove"
-          title="Click to remove"
-          @click="removeItem({ key: `${row.id}` })"
-        />
-        {{ row.id }} - {{ row.plate }}
-      </div>
-    </div>
+    <Selections class="selected" />
   </div>
 </template>
 
@@ -80,9 +58,6 @@
     }
     .selected {
       width: 20vw;
-      .remove {
-        cursor: pointer;
-      }
     }
   }
 </style>

@@ -1,5 +1,4 @@
 import { defineStore } from 'pinia'
-import { Row } from '@/logic/Row'
 
 export const useMainStore = defineStore({
   id: 'main',

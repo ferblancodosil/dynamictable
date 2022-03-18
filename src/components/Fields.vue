@@ -1,6 +1,5 @@
 <script setup lang="ts">
   import { computed } from '@vue/runtime-core'
-  import { Row } from '@/logic/Row'
   import { useMainStore } from '@/store'
   import { ValueType } from '@/logic/ValueType'
   const mainStore = useMainStore()
