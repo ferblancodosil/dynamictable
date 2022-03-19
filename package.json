@@ -8,7 +8,8 @@
     "preview": "vite preview",
     "lint:script": "eslint --ext .ts,vue --ignore-path .gitignore .",
     "lint:style": "stylelint src/**/*.{css,scss,vue}",
-    "lint:markup": "vue-tsc --noEmit"
+    "lint:markup": "vue-tsc --noEmit",
+    "test": "jest"
   },
   "lint-staged": {
     "*.{ts,tsx}": "eslint --fix",
@@ -22,22 +23,28 @@
     "vue3-virtual-scroll-list": "^0.2.0"
   },
   "devDependencies": {
+    "@types/jest": "^27.4.1",
     "@typescript-eslint/eslint-plugin": "^5.14.0",
     "@typescript-eslint/parser": "^5.14.0",
     "@vitejs/plugin-vue": "^2.2.0",
     "@vue/eslint-config-prettier": "^7.0.0",
     "@vue/eslint-config-typescript": "^10.0.0",
+    "@vue/test-utils": "^2.0.0-rc.18",
     "eslint": "^8.10.0",
     "eslint-plugin-prettier": "^4.0.0",
     "eslint-plugin-vue": "^8.5.0",
+    "jest": "^27.4.7",
+    "jest-transform-stub": "^2.0.0",
     "lint-staged": "^12.3.5",
     "prettier": "^2.5.1",
     "sass": "^1.32.11",
     "stylelint": "^14.5.3",
     "stylelint-config-recommended": "^7.0.0",
     "stylelint-config-standard": "^25.0.0",
+    "ts-jest": "^27.1.2",
     "typescript": "^4.5.4",
     "vite": "^2.8.0",
-    "vue-tsc": "^0.29.8"
+    "vue-tsc": "^0.30.2",
+    "@vue/vue3-jest": "^27.0.0-alpha.4"
   }
 }
