@@ -7,17 +7,13 @@
   const selectedRows: Row[] = computed(() => mainStore.selelectedRows as Row[])
 
   const removeItem = ({ key }: { key: string }) => {
-    console.info('key', key)
     mainStore.deleteRow({ key })
   }
 </script>
 <template>
   <div>
     <b>Selected items</b>
-    <div
-      v-for="(row, index) in selectedRows"
-      :key="index"
-    >
+    <div v-for="(row, index) in selectedRows" :key="index" class="selected">
       <img
         src="@/assets/close.svg"
         width="10"
@@ -25,7 +21,7 @@
         class="remove"
         title="Click to remove"
         @click="removeItem({ key: `${row.id}` })"
-      >
+      />
       {{ row.id }} - {{ row.plate }}
     </div>
   </div>
